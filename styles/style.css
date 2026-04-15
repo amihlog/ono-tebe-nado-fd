@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  min-height: 293px;
-  padding: 0 50px;
+  margin: 95px 50px 93px;
 }
 
 /*.header_menu{}*/
@@ -58,6 +57,7 @@
   text-transform: uppercase;
   background-image: url(../images/cover.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -82,7 +82,6 @@
 
 .aligned-text {
   display: block;
-  height: 115px;
 }
 
 .aligned-text_left {
@@ -90,7 +89,7 @@
 }
 
 .aligned-text_center {
-  margin: 20px 0 20px 25px;
+  margin: 16px 0 20px 30px;
   text-align: center;
 }
 
@@ -108,7 +107,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 104px;
 }
 
 .letter-spacing-extended {
@@ -125,10 +124,10 @@
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
-  min-height: 723px;
   margin: 180px 24px 0;
 }
 
@@ -200,7 +199,7 @@
 
 .lots_look-more-link {
   display: block;
-  margin: 30px 0 0 40px;
+  margin: 32px 0 0 40px;
   font-weight: 400;
   font-size: 20px;
 }
@@ -209,7 +208,6 @@
   display: grid;
   grid-template-columns: 334px auto;
   gap: 25px;
-  min-height: 595px;
   margin: 120px 24px 0;
 }
 
@@ -217,7 +215,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 35px;
+  padding: 32px 0 0 1px;
 }
 
 .about_logo {
@@ -239,7 +237,7 @@
 }*/
 
 .about_title {
-  margin: 133px 0 100px 0;
+  margin: 136px 0 104px 0;
   font-size: 40px;
   line-height: 100%;
   text-transform: uppercase;
@@ -257,8 +255,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  min-height: 180px;
-  margin: 180px 50px 0;
+  margin: 183px 50px 0;
+  padding-bottom: 82px;
 }
 
 .footer_address {
